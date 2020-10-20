@@ -1,0 +1,190 @@
+<!Doctype html>
+<html lang="pt-br">
+<head><meta charset="UTF-8">
+   <title>Produtos - Full Stack Cosmetics</title>
+   <link rel= "stylesheet" href="CSS/Estilo.css">
+   <script src="./Javascript/JS.js"></script>
+</head>
+
+<body>
+
+    <!--Início do menu-->
+  
+  <nav class="menu">
+
+    <a href="index.html"><img src="./Imagens/full.png" alt="Full Stack Cosmetic>"</a>
+    <a href="Produtos.html">Produtos</a>
+    <a href="./Comentários.html">Comentários</a>
+    <a href="./Promoções.html">Promoções</a>
+    <a href="Loja.html">Lojas</a>
+    <a href="Contato.html">Contato</a>
+
+</nav>
+
+<!--Fim do menu-->
+ 
+   <main>
+
+   <h2>Produtos</h2>
+   <hr>
+   <div>
+            <h3>Categorias</h3>
+            <ul class="menucategorias">
+                <li onclick="exibir_todos()">Todos (13)</li>
+                <li onclick="exibir_categoria('Maquiagem')">Maquiagens (5)</li>
+                <li onclick="exibir_categoria('Perfume')">Perfumes (3)</li>
+                <li onclick="exibir_categoria('Produtosparapele')">Produtos para a pele (2)</li>
+                <li onclick="exibir_categoria('Produtosparaocabelo')">Produtos para os cabelos (3)</li>
+            </ul>
+
+    </div>
+ 
+
+    <div class="divprodutos" id="Maquiagem" style="display: block;">
+        <img src="./Imagens/paleta-hb-9979-01.jpg" width="120px" onclick="destaque(this)">
+            <br>
+            <font face="arial" size="2">Paleta de sombras Ruby Rose</font>
+            <hr>
+            <font face="arial" size="2"><strike>R$45,00</strike></font><br>
+            <font face="arial" size="4" color="indigo">R$35,00</font><br>
+   
+    </div>
+
+    <div class="divprodutos" id="Maquiagem" style="display: block;">
+        <img src="./Imagens/delineador-em-gel-belle-angel-aa30e491.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Delineador em gel Belle Angel</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$35,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$30,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Maquiagem" style="display: block;">
+        <img src="./Imagens/rímel.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Rímel Maybeline</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$40,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$35,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Maquiagem" style="display: block;">
+        <img src="./Imagens/tractapo.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Pó Compacto Tracta</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$29,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$20,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Maquiagem" style="display: block;">
+        <img src="./Imagens/batom-payot.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Batom Rosa Payot</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$25,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$22,00</font><br>
+  
+    </div>
+
+
+    <div class="divprodutos" id="Perfume" style="display: block;">
+        <img src="./Imagens/nina.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Perfume Nina Ricci 50ml</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$380,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$350,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Perfume" style="display: block;">
+        <img src="./Imagens/olympea-paco-rabanne-eau-de-parfum-perfume-feminino-30ml-.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Perfume Olympea - Paco Rabanne 50ml</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$390,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$370,00</font><br>
+  
+    </div>
+    
+    <div class="divprodutos" id="Produtosparapele" style="display: block;">
+        <img src="./Imagens/cerave.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Creme para o corpo Cerave 200g</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$40,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$38,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Produtosparapele" style="display: block;">
+        <img src="./Imagens/davene.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Creme para o rosto Davene 50g</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$40,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$38,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Produtosparaocabelo" style="display: block;">
+        <img src="./Imagens/11623348535326.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Creme para o cabelo cicatri renov</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$12,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$10,00</font><br>
+  
+    </div>
+        
+    
+    <div class="divprodutos" id="Produtosparaocabelo" style="display: block;">
+        <img src="./Imagens/finalização-cabelos-cacheados-batalha-de-cremes-2.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Creme de tratamento Skala + Creme de pentear Salon Line</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$39,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$35,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Produtosparaocabelo" style="display: block;">
+        <img src="./Imagens/pantene.webp" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Creme pentear pantene</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$14,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$12,00</font><br>
+  
+    </div>
+
+    <div class="divprodutos" id="Perfume" style="display: block;">
+        <img src="./Imagens/Diesel.jpg" width="120px" onclick="destaque(this)">
+        <br>
+        <font face="arial" size="2">Perfume Masculino Diesel 80 ml</font>
+        <hr>
+        <font face="arial" size="2"><strike>R$390,00</strike></font><br>
+        <font face="arial" size="4" color="indigo">R$385,00</font><br>
+  
+    </div>
+
+    
+           
+   </main>
+   
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br><br><br>
+
+
+    <footer id="rodape">
+    <img src="./Imagens/forma de pagamento daten - logos-cartoes_.jpg">
+    <p>&copy Mayara Braga da Silva</p></footer>
+
+   </body>
+   </html>
