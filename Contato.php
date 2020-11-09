@@ -36,22 +36,40 @@
      <br><br><br><br>
 
    <h3 class="classeh3">Mande uma mensagem!</h3>
-
-   <center><form id="formulariocontato">
-
-  <label>Nome completo:</label>
-     <input type="text" placeholder="Escreva seu nome aqui"><br><br>
-  <label>Email:</label>
-    <input type="text" placeholder="Escreva seu email aqui"><br><br>
-  <label>Telefone:</label>
-    <input type="number" placeholder="Escreva seu telefone aqui"><br><br>
-  <label>Mensagem:</label>
-    <textarea style placeholder="Escreva sua mensagem aqui"></textarea><br><br>
-  <input type="submit" alue="Enviar">
-
-    </center>
-  </form>
-
+      
+      
+      
+      
+     <center><div class="text-info"><form id="formulariocontato">
+  <div class="form-group">
+    <label for="inputName">Nome completo:</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Seu nome aqui...">
+  </div>
+  <div class="form-group">
+    <label for="inputEmail">Email:</label>
+    <input type="text" class="form-control" id="inputemail" placeholder="Seu email aqui...">
+  </div>
+    <div class="form-group col-md-6">
+      <label for="inputNumber">Telefone:</label>
+      <input type="number" class="form-control" id="inputNumber">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Escreva sua mensagem...</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Clique em mim
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+      </form></div></center>
+      
+      
+  
   </main>
 
   <footer>
