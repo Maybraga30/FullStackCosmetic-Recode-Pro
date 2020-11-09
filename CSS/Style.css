@@ -100,7 +100,7 @@ p {
 
 h2 { 
     font-family: Verdana, Geneva, Tahoma, sans-serif 
-    color: indigo;
+   
 }
 
 .classeh3 {
@@ -255,6 +255,7 @@ footer {
     width: 40%;
     padding-top: 20px;
     padding-bottom: 20px;
+    align-items: center;
 }
 
 #formulariocontato textarea {
@@ -278,5 +279,5 @@ footer {
 }
 
 .rodape {
-   padding-top: ;
+   padding-top: 0;
 }

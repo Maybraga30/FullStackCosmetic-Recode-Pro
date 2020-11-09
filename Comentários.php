@@ -13,28 +13,9 @@
    <div class="container-fluid">
    
      <!--Início do menu-->
-    
- <nav>
- 
- <div class="alinhamentoflex"><a href="index.html"><img src="./Imagens/homefinal.png" alt="Full Stack Cosmetic>"</a></div>
-     
- <ul class="menu">
-   <li><a href="./index.html">Home</a></li>
-   <li><a href="Produtos.html">Produtos</a></li>
-   <li><a href="./Comentários.html">Comentários</a></li>
-   <li><a href="./Promoções.html">Promoções</a></li>
-   <li><a href="Loja.html">Lojas</a></li>
-   <li><a href="Contato.html">Contato</a></li>
-   <li><div id="divBusca">
-     <input type="text" id="txtBusca" placeholder="Buscar no site..."/>
-     <img src="./Imagens/lp.png" id="btnBusca" alt="Buscar"/>
-   </div></li>
- 
- </ul>
- 
- 
- </nav>
- 
+<?php
+       include('menu.html');
+?>
  
  <!--Fim do menu-->
  

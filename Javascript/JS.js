@@ -1,6 +1,8 @@
 function mensagem()
 {
+    
 alert("Bem-vindo! Aproveite as promoções!");
+    
 }
 
 function exibir_categoria(categoria){

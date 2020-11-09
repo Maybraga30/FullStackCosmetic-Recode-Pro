@@ -99,7 +99,7 @@ p {
 
 h2 { 
     font-family: Verdana, Geneva, Tahoma, sans-serif 
-    color: purple;
+    
 }
 
 .classeh3 {
@@ -277,5 +277,5 @@ footer {
 }
 
 .rodape {
-   padding-top: ;
+   padding-top: 0;
 }
