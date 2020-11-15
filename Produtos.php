@@ -2,7 +2,7 @@
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $database = "watercolor";
+    $database = "bd_watercolor";
   
  //criando a conexão
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -64,7 +64,7 @@ if (!$conn) {
         
 ?>
     
-     <div class="divprodutos" id="<?php echo $rows["categoria"]; ?>"
+     <div class="divprodutos" id="<?php echo $rows["categorias"]; ?>"
              <a href="#"><img src="<?php echo $rows["imagem"]; ?>" width="180px" onclick="destaque(this)">
              <p class="p3"><?php echo $rows["descricao"]; ?></p></a>
              <input class="btn1"
@@ -82,11 +82,6 @@ if (!$conn) {
 
     ?>
  
-        
-         
-         
-
-         
      </main>
          <footer>
           <div class="rodape"><img src="./Imagens/forma de pagamento daten - logos-cartoes_.jpg"></div><br>
