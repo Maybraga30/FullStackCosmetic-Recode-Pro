@@ -1,7 +1,7 @@
 <!Doctype html>
 <html lang="pt-br">
 <head><meta charset="UTF-8">
-   <title>Full Stack Cosmetics</title>
+   <title>Pedidos - Watercolor</title>
    <link rel= "stylesheet" href="./CSS/Style2.css">
    <script src="./Javascript/JS.js"></script>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -51,7 +51,7 @@
      $servername = "localhost";
      $username = "root";
      $password = "";
-     $database = "watercolor";
+     $database = "bd_watercolor";
 
      $conn = mysqli_connect($servername,$username,$password,$database);
      if(isset($_POST['nome_do_cliente']) && isset($_POST['endereco']) && isset($_POST['telefone']) 
